@@ -1,0 +1,50 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+ font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100; 
+}
+
+body {
+    background-image: url(./img/faded-office.png);
+    background-size: cover;
+    font-family: Open Sans;
+    color: #020202;
+        
+}
+#container {
+    width: 450px;    
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+#main-heading {
+   font-weight: 800;
+   font-size: 73px;
+   margin-bottom: -2px;
+}
+
+#sub-heading {
+   font-weight: 500;
+   font-size: 34px;
+   margin-bottom: 50px;
+   width: 460px;
+}
+
+#underline {
+    border-bottom: 6px solid #0ea5e9;
+}
+
+#btn {
+    background: #0ea5e9;
+    color: white;
+    padding: 30px 55px;
+    border: none;
+    font-family: inherit;
+    font-weight: 650;
+    font-size: 28px;
+}
